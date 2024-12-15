@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #2e3a59;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main Section Styles */
+main {
+    padding: 40px 0;
+}
+
+main .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.intro, .games, .download {
+    margin-bottom: 40px;
+}
+
+.intro p, .games ul, .download ol {
+    font-size: 16px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2e3a59;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 10px 0;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .intro p, .games ul, .download ol {
+        font-size: 14px;
+    }
+}
